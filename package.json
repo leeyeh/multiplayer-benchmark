@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "node test.mjs"
+  },
+  "dependencies": {
+    "@leancloud/play": "^1.0.2",
+    "yargs": "^17.7.2"
+  }
+}
