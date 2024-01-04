@@ -26,8 +26,7 @@ const player2 = new Client({
   userId: "player-2", // 设置用户 id
 });
 
-await player1.connect();
-await player2.connect();
+await Promise.all([player1.connect(), player2.connect()]);
 
 const roomName = `test-room-${Date.now()}`;
 
