@@ -4,6 +4,8 @@
   },
   "dependencies": {
     "@leancloud/play": "^1.0.2",
+    "histogram-simple": "^0.0.112",
+    "stats-lite": "^2.2.0",
     "yargs": "^17.7.2"
   }
 }
